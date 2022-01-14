@@ -50,6 +50,7 @@ const addIssuesToDom = (issues) => {
     });
   }
 };
+
 //Set loading state
 const setLoading = (isLoading = true) => {
   const loader = document.querySelector(".loader");
